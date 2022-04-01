@@ -1,4 +1,4 @@
-package com.drsync.cryptocurrencyapp.ui.theme
+package com.drsync.cryptocurrencyapp.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

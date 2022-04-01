@@ -1,4 +1,4 @@
-package com.drsync.cryptocurrencyapp.ui.theme
+package com.drsync.cryptocurrencyapp.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
