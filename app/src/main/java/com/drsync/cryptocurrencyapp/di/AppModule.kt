@@ -17,7 +17,7 @@ import javax.inject.Singleton
 object AppModule {
     @Provides
     @Singleton
-    fun proivdePaprikaApi(): CoinPaprikaApi {
+    fun providePaprikaApi(): CoinPaprikaApi {
         return Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())

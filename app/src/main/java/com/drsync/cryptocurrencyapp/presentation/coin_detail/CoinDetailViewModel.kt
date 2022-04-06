@@ -8,11 +8,12 @@ import androidx.lifecycle.viewModelScope
 import com.drsync.cryptocurrencyapp.common.Constants.PARAM_COIN_ID
 import com.drsync.cryptocurrencyapp.common.Resource
 import com.drsync.cryptocurrencyapp.domain.use_case.get_coin.GetCoinUseCase
-import com.drsync.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
+@HiltViewModel
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
     savedStateHandle: SavedStateHandle
