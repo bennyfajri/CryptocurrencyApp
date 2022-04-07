@@ -26,9 +26,7 @@ fun CoinListItem(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable {
-                onItemClick(coin)
-            }
+            .clickable { onItemClick(coin) }
             .padding(20.dp),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
@@ -45,7 +43,6 @@ fun CoinListItem(
             style = MaterialTheme.typography.body2,
             modifier = Modifier.align(CenterVertically)
         )
-
     }
 
 }
